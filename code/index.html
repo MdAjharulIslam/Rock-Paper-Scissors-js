@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+        <p class="instructions">Choose Rock, Paper, or Scissors. First to 5 wins!</p>
+        <div class="score-board">
+            <div id="user-score" class="score">0</div>
+            <div class="label">You</div>
+            <div id="computer-score" class="score">0</div>
+            <div class="label">Computer</div>
+        </div>
+
+        <div class="choices">
+            <div id="rock" class="choice"><img src="rock.png" alt="Rock"></div>
+            <div id="paper" class="choice"><img src="paper.png" alt="Paper"></div>
+            <div id="scissors" class="choice"><img src="scissors.png" alt="Scissors"></div>
+        </div>
+
+        <div id="result" class="result">Make Your Move!</div>
+        <div id="move-display" class="move-display">
+            <span>Your Move: <img id="user-move" src="" alt="Your Move"></span>
+            <span>Computer's Move: <img id="computer-move" src="" alt="Computer's Move"></span>
+        </div>
+        <button id="reset-btn" class="reset-btn">Restart Game</button>
+    </div>
+
+
+    
+<div class="result-modal" id="result-modal">
+    <div class="modal-content">
+        <h2 id="final-result-message"></h2>
+        <button id="close-modal-btn">Play Again</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

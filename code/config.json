@@ -1,0 +1,42 @@
+{
+    "gameSettings": {
+      "winningScore": 5,
+      "choices": ["rock", "paper", "scissors"],
+      "choiceImages": {
+        "rock": "rock.png",
+        "paper": "paper.png",
+        "scissors": "scissors.png"
+      },
+      "messages": {
+        "win": "You Win!",
+        "lose": "You Lose!",
+        "draw": "It's a Draw!",
+        "congratulations": "Congratulations! You won the game after 5 rounds!",
+        "tryAgain": "Computer wins after 5 rounds! Try again!"
+      }
+    },
+    "elements": {
+      "userScoreId": "user-score",
+      "computerScoreId": "computer-score",
+      "resultId": "result",
+      "resetButtonId": "reset-btn",
+      "userMoveId": "user-move",
+      "computerMoveId": "computer-move",
+      "resultModalId": "result-modal",
+      "finalResultMessageId": "final-result-message",
+      "closeModalButtonId": "close-modal-btn"
+    },
+    "initialScores": {
+      "user": 0,
+      "computer": 0
+    },
+    "animations": {
+      "selectedClass": "selected",
+      "resultClasses": {
+        "win": "result win",
+        "lose": "result lose",
+        "draw": "result draw"
+      }
+    }
+  }
+  
